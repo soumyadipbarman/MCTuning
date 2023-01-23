@@ -1,0 +1,24 @@
+# BEGIN PLOT
+LegendOnly=//home/soumyadip/Workspace/Zigzag/pwpy8_1.yoda/MC_XS/XS
+DrawOnly=//home/soumyadip/Workspace/Zigzag/pwpy8_1.yoda/MC_XS/XS
+XCustomMajorTicks=0.	$\quad$
+Title=Total generated cross section
+LogY=0
+XLabel=
+ShowZero=0
+XMinorTickMarks=0
+YLabel=$\sigma_\mathrm{total}$ [pb]
+Legend=1
+LegendAlign=r
+# END PLOT
+
+# BEGIN HISTO1D //home/soumyadip/Workspace/Zigzag/pwpy8_1.yoda/MC_XS/XS
+ErrorBreakdown={0: {"": {up: 0, dn: 0}}}
+LineColor=red
+LineStyle=solid
+Path=//home/soumyadip/Workspace/Zigzag/pwpy8_1.yoda/MC_XS/XS
+Title=pwpy8_1
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.792366e+09	0.000000e+00	0.000000e+00
+# END HISTO1D
+

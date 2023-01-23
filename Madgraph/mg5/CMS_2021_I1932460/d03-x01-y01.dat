@@ -1,0 +1,48 @@
+# BEGIN PLOT
+LegendOnly=/CMS_2021_I1932460/d03-x01-y01 //home/soumyadip/Workspace/Zigzag/mg5py8_1.yoda/CMS_2021_I1932460/d03-x01-y01
+DrawOnly=/CMS_2021_I1932460/d03-x01-y01 //home/soumyadip/Workspace/Zigzag/mg5py8_1.yoda/CMS_2021_I1932460/d03-x01-y01
+YMax=12000000
+Title=CMS, 13 TeV, 4-jet production
+RatioPlotReference=/CMS_2021_I1932460/d03-x01-y01
+RatioPlot=1
+LogY=1
+RatioPlotYMax=3.8
+XLabel=p$_{\rm T,3}$ [GeV]
+YLabel=d$\sigma$/dp$_{\rm T,3}$ [pb/GeV]
+YMin=12
+Legend=1
+RatioPlotYMin=0.3
+# END PLOT
+
+# BEGIN HISTO1D /CMS_2021_I1932460/d03-x01-y01
+ConnectBins=0
+ErrorBars=1
+IsRef=1
+Path=/CMS_2021_I1932460/d03-x01-y01
+PolyMarker=*
+Title=Data
+# xlow	 xhigh	 val	 errminus	 errplus
+2.500000e+01	3.500000e+01	1.345000e+05	3.399100e+04	4.565300e+04
+3.500000e+01	5.000000e+01	6.424500e+04	9.972600e+03	1.185600e+04
+5.000000e+01	7.500000e+01	8.397200e+03	1.103400e+03	1.494500e+03
+7.500000e+01	1.050000e+02	1.619300e+03	2.153800e+02	2.228000e+02
+1.050000e+02	1.500000e+02	2.497200e+02	3.479200e+01	3.467400e+01
+1.500000e+02	2.000000e+02	3.286900e+01	5.757400e+00	5.640400e+00
+# END HISTO1D
+
+
+# BEGIN HISTO1D //home/soumyadip/Workspace/Zigzag/mg5py8_1.yoda/CMS_2021_I1932460/d03-x01-y01
+LineColor=red
+LineStyle=solid
+Path=//home/soumyadip/Workspace/Zigzag/mg5py8_1.yoda/CMS_2021_I1932460/d03-x01-y01
+ScaledBy=1.00004000192488305e-05
+Title=mg5py8_1
+# xlow	 xhigh	 val	 errminus	 errplus
+2.500000e+01	3.500000e+01	9.449256e+04	3.581731e+03	3.581731e+03
+3.500000e+01	5.000000e+01	4.597914e+04	2.039994e+03	2.039994e+03
+5.000000e+01	7.500000e+01	8.037300e+03	6.606618e+02	6.606618e+02
+7.500000e+01	1.050000e+02	1.312397e+03	2.437059e+02	2.437059e+02
+1.050000e+02	1.500000e+02	1.810202e+02	7.390120e+01	7.390120e+01
+1.500000e+02	2.000000e+02	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+

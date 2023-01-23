@@ -1,0 +1,29 @@
+# BEGIN PLOT
+LegendOnly=//home/soumyadip/Workspace/Zigzag/25Dec2022_py8.yoda/MC_JETS/jet_multi_exclusive
+DrawOnly=//home/soumyadip/Workspace/Zigzag/25Dec2022_py8.yoda/MC_JETS/jet_multi_exclusive
+Title=Exclusive jet multiplicity
+XMajorTickMarks=10
+LogY=1
+ErrorBands=1
+XMinorTickMarks=0
+YLabel=$\sigma(N_{\mathrm{jet}})$ [pb]
+XLabel=$N_{\mathrm{jet}}$
+Legend=1
+# END PLOT
+
+# BEGIN HISTO1D //home/soumyadip/Workspace/Zigzag/25Dec2022_py8.yoda/MC_JETS/jet_multi_exclusive
+LineColor=red
+LineStyle=solid
+Path=//home/soumyadip/Workspace/Zigzag/25Dec2022_py8.yoda/MC_JETS/jet_multi_exclusive
+ScaledBy=1.43580032793284487e+06
+Title=25Dec2022_py8
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	7.719580e+08	1.165309e+07	1.165309e+07
+5.000000e-01	1.500000e+00	5.038862e+08	7.697687e+06	7.697687e+06
+1.500000e+00	2.500000e+00	2.639968e+08	3.871461e+06	3.871461e+06
+2.500000e+00	3.500000e+00	4.756469e+07	1.315516e+06	1.315516e+06
+3.500000e+00	4.500000e+00	1.068807e+07	5.093812e+05	5.093812e+05
+4.500000e+00	5.500000e+00	2.292442e+06	1.686050e+05	1.686050e+05
+5.500000e+00	6.500000e+00	5.132551e+05	5.465666e+04	5.465666e+04
+# END HISTO1D
+

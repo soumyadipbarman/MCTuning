@@ -1,0 +1,44 @@
+# BEGIN PLOT
+LegendOnly=/CMS_2018_I1682495/d26-x01-y01 //home/soumyadip/Workspace/Zigzag/mg5py8_1.yoda/CMS_2018_I1682495/d26-x01-y01
+XLabel=$m_u$
+RatioPlotReference=/CMS_2018_I1682495/d26-x01-y01
+YLabel=$\frac{1}{d\sigma/dp_{T}}\frac{d^2\sigma}{dp_{T} dm_u}$
+DrawOnly=/CMS_2018_I1682495/d26-x01-y01 //home/soumyadip/Workspace/Zigzag/mg5py8_1.yoda/CMS_2018_I1682495/d26-x01-y01
+RatioPlot=1
+Title=CMS, 13 TeV, Ungroomed jet mass $m_u$ ($260 < p_T < 350$ GeV)
+Legend=1
+LogY=0
+# END PLOT
+
+# BEGIN HISTO1D /CMS_2018_I1682495/d26-x01-y01
+ConnectBins=0
+ErrorBars=1
+IsRef=1
+Path=/CMS_2018_I1682495/d26-x01-y01
+PolyMarker=*
+Title=Data
+# xlow	 xhigh	 val	 errminus	 errplus
+2.000000e+01	4.000000e+01	1.093800e-02	3.161346e-03	3.161346e-03
+4.000000e+01	6.000000e+01	1.889100e-02	5.459970e-03	5.459970e-03
+6.000000e+01	8.000000e+01	1.071400e-02	3.096492e-03	3.096492e-03
+8.000000e+01	1.000000e+02	5.245100e-03	5.083709e-04	5.083709e-04
+1.000000e+02	1.500000e+02	1.428000e-03	1.051018e-04	1.051018e-04
+1.500000e+02	2.000000e+02	2.788400e-05	7.960878e-06	7.960878e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //home/soumyadip/Workspace/Zigzag/mg5py8_1.yoda/CMS_2018_I1682495/d26-x01-y01
+LineColor=red
+LineStyle=solid
+Path=//home/soumyadip/Workspace/Zigzag/mg5py8_1.yoda/CMS_2018_I1682495/d26-x01-y01
+ScaledBy=8.18439333421757334e-10
+Title=mg5py8_1
+# xlow	 xhigh	 val	 errminus	 errplus
+2.000000e+01	4.000000e+01	5.555555e-03	5.555556e-03	5.555556e-03
+4.000000e+01	6.000000e+01	2.222222e-02	1.111111e-02	1.111111e-02
+6.000000e+01	8.000000e+01	5.555555e-03	5.555556e-03	5.555556e-03
+8.000000e+01	1.000000e+02	5.555555e-03	5.555556e-03	5.555556e-03
+1.000000e+02	1.500000e+02	4.444444e-03	3.142697e-03	3.142697e-03
+1.500000e+02	2.000000e+02	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+

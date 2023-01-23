@@ -1,0 +1,27 @@
+# BEGIN PLOT
+LegendOnly=//home/soumyadip/Workspace/Zigzag/pwpy8_1.yoda/MC_XS/pmN
+DrawOnly=//home/soumyadip/Workspace/Zigzag/pwpy8_1.yoda/MC_XS/pmN
+XCustomMajorTicks=-0.5	$w<0$	0.5	$w\geq0$
+Title=Number of positive and negative weighted events
+LogY=0
+LegendXPos=0.05
+XLabel=$\mathrm{sgn}(w)$
+ShowZero=0
+XMax=1
+YLabel=$N_\pm$
+XMin=-1
+XMinorTickMarks=0
+Legend=1
+# END PLOT
+
+# BEGIN HISTO1D //home/soumyadip/Workspace/Zigzag/pwpy8_1.yoda/MC_XS/pmN
+LineColor=red
+LineStyle=solid
+Path=//home/soumyadip/Workspace/Zigzag/pwpy8_1.yoda/MC_XS/pmN
+ScaledBy=1.00000000000000000e+00
+Title=pwpy8_1
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.520000e+02	1.587451e+01	1.587451e+01
+0.000000e+00	1.000000e+00	4.974800e+04	2.230426e+02	2.230426e+02
+# END HISTO1D
+

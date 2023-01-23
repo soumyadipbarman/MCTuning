@@ -1,0 +1,91 @@
+<html>
+<head>
+<title>Plots from Rivet analyses</title>
+<style>
+      html { font-family: sans-serif; }
+      img { border: 0; }
+      a { text-decoration: none; font-weight: bold; }
+    </style>
+            <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          tex2jax: {inlineMath: [["$","$"]]}
+        });
+        </script>
+        <script type="text/javascript" async
+          src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
+        
+
+        <script type="text/javascript">
+            function filterPlots(ana, patt) {
+                var regex = new RegExp(patt);
+                var sec = document.getElementById('ana_'+ana);
+                var plots = sec.getElementsByClassName('plot');
+                var i; for (i = 0; i < plots.length; ++i) {
+                    // var viz = (regex.test(plots[i].id)) ? 'visible' : 'hidden';
+                    // plots[i].style.visibility = viz;
+                    var dis = (regex.test(plots[i].id)) ? 'block' : 'none';
+                    plots[i].style.display = dis;
+                }
+                return false;
+           }
+        </script>
+        </head>
+<body><h2>Plots from Rivet analyses</h2>
+
+
+<h3><a href="ATLAS_2020_I1808726/index.html" style="text-decoration:none;">Hadronic event shapes in multijet final states (ATLAS_2020_I1808726)</a></h3>
+<p><a href="https://inspirehep.net/literature/1808726">Inspire</a> &#124; <a href="http://hepdata.net/record/ins1808726">HepData</a> &#124; <a href="https://rivet.hepforge.org/analyses/ATLAS_2020_I1808726.html">Analysis reference</a> &#124; <a href="https://arxiv.org/abs/2007.12600">arXiv:2007.12600</a></p>
+
+<h3><a href="ATLAS_2020_I1790256/index.html" style="text-decoration:none;">Lund jet plane with charged particles (ATLAS_2020_I1790256)</a></h3>
+<p><a href="https://inspirehep.net/literature/1790256">Inspire</a> &#124; <a href="http://hepdata.net/record/ins1790256">HepData</a> &#124; <a href="https://rivet.hepforge.org/analyses/ATLAS_2020_I1790256.html">Analysis reference</a> &#124; <a href="https://arxiv.org/abs/2004.03540">arXiv:2004.03540</a></p>
+<p style="font-size:smaller;">The prevalence of hadronic jets at the LHC requires that a deep understanding of jet formation and structure is achieved in order to reach the highest levels of experimental and theoretical precision. There have been many measurements of jet substructure at the LHC and previous colliders, but the targeted observables mix physical effects from various origins. Based on a recent proposal to factorize physical effects, this Letter presents a double-differential cross-section measurement of the Lund jet plane using 139 fb$^{-1}$ of $\sqrt{s}=13$ TeV proton-proton collision data collected with the ATLAS detector using jets with transverse momentum above 675 GeV. The measurement uses charged particles to achieve a fine angular resolution and is corrected for acceptance and detector effects. Several parton shower Monte Carlo models are compared with the data. No single model is found to be in agreement with the measured data across the entire plane.</p>
+
+<h3><a href="ATLAS_2019_I1740909/index.html" style="text-decoration:none;">Jet fragmentation using charged particles (ATLAS_2019_I1740909)</a></h3>
+<p><a href="https://inspirehep.net/literature/1740909">Inspire</a> &#124; <a href="http://hepdata.net/record/ins1740909">HepData</a> &#124; <a href="https://rivet.hepforge.org/analyses/ATLAS_2019_I1740909.html">Analysis reference</a> &#124; <a href="https://arxiv.org/abs/1906.09254">arXiv:1906.09254</a> &#124; Phys.Rev.D 100 (2019) 5, 052011</p>
+
+<h3><a href="ATLAS_2019_I1724098/index.html" style="text-decoration:none;">Jet substructure at 13 TeV (ATLAS_2019_I1724098)</a></h3>
+<p><a href="https://inspirehep.net/literature/1724098">Inspire</a> &#124; <a href="http://hepdata.net/record/ins1724098">HepData</a> &#124; <a href="https://rivet.hepforge.org/analyses/ATLAS_2019_I1724098.html">Analysis reference</a> &#124; JHEP 1908 (2019) 033 &#124; doi:10.1007/JHEP08(2019)033 &#124; <a href="https://arxiv.org/abs/1903.02942">arXiv:1903.02942</a></p>
+<p style="font-size:smaller;">A measurement of jet substructure observables is presented using data collected in 2016 by the ATLAS experiment at the LHC with proton-proton collisions at $\sqrt{s} = 13$ TeV. Large-radius jets groomed with the trimming and soft-drop algorithms are studied. Dedicated event selections are used to study jets produced by light quarks or gluons, and hadronically decaying top quarks and W bosons. The observables measured are sensitive to substructure, and therefore are typically used for tagging large-radius jets from boosted massive particles. These include the energy correlation functions and the $N$-subjettiness variables. The number of subjets and the Les Houches angularity are also considered. The distributions of the substructure variables, corrected for detector effects, are compared to the predictions of various Monte Carlo event generators. They are also compared between the large-radius jets originating from light quarks or gluons, and hadronically decaying top quarks and $W$ bosons.</p>
+
+<h3><a href="ATLAS_2018_I1634970/index.html" style="text-decoration:none;">ATLAS Inclusive jet and dijet cross section measurement at sqrt(s)=13TeV (ATLAS_2018_I1634970)</a></h3>
+<p><a href="https://inspirehep.net/literature/1634970">Inspire</a> &#124; <a href="http://hepdata.net/record/ins1634970">HepData</a> &#124; <a href="https://rivet.hepforge.org/analyses/ATLAS_2018_I1634970.html">Analysis reference</a> &#124; JHEP 1805 (2018) 195 &#124; <a href="https://arxiv.org/abs/1711.02692">arXiv:1711.02692</a></p>
+<p style="font-size:smaller;">Inclusive jet and dijet cross-sections are measured in proton-proton collisions at a centre-of-mass energy of 13 TeV. The measurement uses a dataset with an integrated luminosity of 3.2 fb$^{-1}$ recorded in 2015 with the ATLAS detector at the Large Hadron Collider. Jets are identified using the anti-$k_\text{t}$ algorithm with a radius parameter value of $R = 0.4$. The inclusive jet cross-sections are measured double-differentially as a function of the jet transverse momentum, covering the range from 100 GeV to 3.5 TeV, and the absolute jet rapidity up to $|y| = 3$. The double-differential dijet production cross-sections are presented as a function of the dijet mass, covering the range from 300 GeV to 9 TeV, and the half absolute rapidity separation between the two leading jets within $|y| &lt; 3$, $y^\ast$, up to $y^\ast = 3$. Next-to-leading-order, and next-to-next-to-leading-order for the inclusive jet measurement, perturbative QCD calculations corrected for non-perturbative and electroweak effects are compared to the measured cross-sections.</p>
+
+<h3><a href="CMS_2021_I1972986/index.html" style="text-decoration:none;">Measurement and QCD analysis of double-differential inclusive jet cross sections in proton-proton collisions at 13 TeV (CMS_2021_I1972986)</a></h3>
+<p><a href="https://inspirehep.net/literature/1972986">Inspire</a> &#124; <a href="http://hepdata.net/record/ins1972986">HepData</a> &#124; <a href="https://rivet.hepforge.org/analyses/CMS_2021_I1972986.html">Analysis reference</a> &#124; <a href="https://arxiv.org/abs/2111.10431">arXiv:2111.10431</a> &#124; CMS-SMP-20-011 &#124; JHEP 02 (2022) 142</p>
+
+<h3><a href="CMS_2021_I1932460/index.html" style="text-decoration:none;">Measurement of double-parton scattering in inclusive production of four jets with low transverse momentum in proton-proton collisions at $\sqrt{s}$ = 13 TeV. (CMS_2021_I1932460)</a></h3>
+<p><a href="https://inspirehep.net/literature/1932460">Inspire</a> &#124; <a href="http://hepdata.net/record/ins1932460">HepData</a> &#124; <a href="https://rivet.hepforge.org/analyses/CMS_2021_I1932460.html">Analysis reference</a> &#124; CMS-SMP-20-007 &#124; <a href="https://arxiv.org/abs/2109.13822">arXiv:2109.13822</a></p>
+<p style="font-size:smaller;">A measurement of inclusive four-jet production in proton-proton collisions at a center-of-mass energy of 13 TeV is presented. The transverse momenta of jets within $| \eta | &lt; 4.7$ reach down to 35, 30, 25, and 20 GeV for the first-, second-, third-, and fourth- leading jet, respectively. Differential cross sections are measured as functions of the jet transverse momentum, jet pseudorapidity, and several other observables that describe the angular correlations between the jets. The measured distributions show sensitivity to different aspects of the underlying event, parton shower, and matrix element calculations. In particular, the interplay between angular correlations caused by parton shower and double-parton scattering contributions is shown to be important. The double-parton scattering contribution is extracted by means of a template fit to the data, using distributions for single-parton scattering obtained from Monte Carlo event generators and a double-parton scattering distribution constructed from inclusive single-jet events in data. The effective double-parton scattering cross section is calculated and discussed in view of previous measurements and of its dependence on the models used to describe the single-parton scattering background.</p>
+
+<h3><a href="CMS_2021_I1920187_DIJET/index.html" style="text-decoration:none;">Study of quark and gluon jet substructure in Z+jet and dijet events from pp collisions at 13 TeV (CMS_2021_I1920187_DIJET)</a></h3>
+<p><a href="https://inspirehep.net/literature/1920187_DIJET">Inspire</a> &#124; <a href="http://hepdata.net/record/ins1920187_DIJET">HepData</a> &#124; <a href="https://rivet.hepforge.org/analyses/CMS_2021_I1920187_DIJET.html">Analysis reference</a> &#124; CMS-SMP-20-010 &#124; <a href="https://arxiv.org/abs/2109.03340">arXiv:2109.03340</a></p>
+<p style="font-size:smaller;">Measurements of jet substructure describing the composition of quark- and gluon-initiated jets are presented. Proton-proton (pp) collision data at sqrt(s)=13 TeV collected with the CMS detector are used, corresponding to an integrated luminosity of 35.9/fb. Generalized angularities are measured that characterize the jet substructure and distinguish quark- and gluon-initiated jets. These observables are sensitive to the distributions of transverse momenta and angular distances within a jet. The analysis is performed using a data sample of dijet events enriched in gluon-initiated jets, and, for the first time, a Z+jet event sample enriched in quark-initiated jets. The observables are measured in bins of jet transverse momentum, and as a function of the jet radius parameter. Each measurement is repeated applying a "soft drop" grooming procedure that removes soft and large angle radiation from the jet.</p>
+
+<h3><a href="CMS_2018_I1682495/index.html" style="text-decoration:none;">Jet mass in dijet events in $pp$ collisions at 13 TeV (CMS_2018_I1682495)</a></h3>
+<p><a href="https://inspirehep.net/literature/1682495">Inspire</a> &#124; <a href="http://hepdata.net/record/ins1682495">HepData</a> &#124; <a href="https://rivet.hepforge.org/analyses/CMS_2018_I1682495.html">Analysis reference</a> &#124; JHEP 11 (2018) 113 &#124; DOI 10.1007/JHEP11(2018)113 &#124; <a href="https://arxiv.org/abs/1807.05974">arXiv:1807.05974</a> &#124; inspirehep 1682495 &#124; http://cms-results.web.cern.ch/cms-results/public-results/publications/SMP-16-010/index.html</p>
+<p style="font-size:smaller;">Measurements of the differential jet cross section are presented as a function of jet mass in dijet events, in bins of jet transverse momentum, with and without a jet grooming algorithm. The data have been recorded by the CMS Collaboration in proton-proton collisions at the LHC at a center-of-mass energy of 13\text{TeV} and correspond to an integrated luminosity of 2.3\fbinv. The absolute cross sections show slightly different jet transverse momentum spectra in data and Monte Carlo event generators for the settings used. Removing this transverse momentum dependence, the normalized cross section for ungroomed jets is consistent with the prediction from Monte Carlo event generators for masses below 30\% of the transverse momentum. The normalized cross section for groomed jets is measured with higher precision than the ungroomed cross section. Semi-analytical calculations of the jet mass beyond leading logarithmic accuracy are compared to data, as well as predictions at leading order and next-to-leading order, which include parton showering and hadronization. Overall, in the normalized cross section, the theoretical predictions agree with the measured cross sections within the uncertainties for masses from 10 to 30\% of the jet transverse momentum.</p>
+
+<h3><a href="CMS_2018_I1680318/index.html" style="text-decoration:none;">Charged particle distributions in different final states at 13 TeV (CMS_2018_I1680318)</a></h3>
+<p><a href="https://inspirehep.net/literature/1680318">Inspire</a> &#124; <a href="http://hepdata.net/record/ins1680318">HepData</a> &#124; <a href="https://rivet.hepforge.org/analyses/CMS_2018_I1680318.html">Analysis reference</a> &#124; Eur.Phys.J. C78 (2018) no.9, 697 &#124; DOI: 10.1140/epjc/s10052-018-6144-y &#124; <a href="https://arxiv.org/abs/1806.11245">arXiv:1806.11245</a> &#124; http://cms-results.web.cern.ch/cms-results/public-results/publications/FSQ-16-011/</p>
+<p style="font-size:smaller;">Charged particle distributions in different final states at $\sqrt{s} = 13$ TeV by the CMS experiment. Pseudorapidity, multiplicity and transverse momentum distributions of all charged particles. Also the $p_\perp$ leading charged particle spectrum and its integration as function of $p_\perp$. The distributions are presented for inelastic, non-single-diffractive and single-diffractive event selections. Please note, that the MC predictions are not scaled to the datapoints, in contrast to Figure 6 in the publication.</p>
+
+<h3><a href="CMS_2016_I1459051/index.html" style="text-decoration:none;">Measurement of the inclusive jet cross-section in $pp$ collisions at $\sqrt{s} = 13 \text{TeV}$ (CMS_2016_I1459051)</a></h3>
+<p><a href="https://inspirehep.net/literature/1459051">Inspire</a> &#124; <a href="http://hepdata.net/record/ins1459051">HepData</a> &#124; <a href="https://rivet.hepforge.org/analyses/CMS_2016_I1459051.html">Analysis reference</a> &#124; Eur.Phys.J. C76 (2016) no.8, 451 &#124; CERN-EP-2016-104 &#124; CMS-SMP-15-007</p>
+<p style="font-size:smaller;">A measurement of the double-differential inclusive jet cross section as a function of jet transverse momentum pT and absolute jet rapidity |y| is presented. The analysis is based on proton-proton collisions collected by the CMS experiment at the LHC at a centre-of-mass energy of 13 TeV. The data samples correspond to integrated luminosities of 71 and 44 pb-1 for |y| &lt; 3 and 3.2 &lt; |y| &lt; 4.7, respectively. Jets are reconstructed with the anti-kt clustering algorithm for two jet sizes, R, of 0.7 and 0.4, in a phase space region covering jet pT up to 2 TeV and jet rapidity up to |y| = 4.7. Predictions of perturbative quantum chromodynamics at next-to-leading order precision, complemented with electroweak and nonperturbative corrections, are used to compute the absolute scale and the shape of the inclusive jet cross section. The cross-section difference in $R$, when going to a smaller jet size of 0.4, is best described by Monte Carlo event generators with next-to-leading order predictions matched to parton showering, hadronisation, and multiparton interactions. In the phase space accessible with the new data, this measurement provides a first indication that jet physics is as well understood at $\sqrt(s) = 13 \text{TeV}$ as at smaller centre-of-mass energies.</p>
+
+<h3><a href="MC_JETS/index.html" style="text-decoration:none;">Monte Carlo validation observables for jet production (MC_JETS)</a></h3>
+<p><a href="https://rivet.hepforge.org/analyses/MC_JETS.html">Analysis reference</a></p>
+<p style="font-size:smaller;">Jets with $p_\perp&gt;20$ GeV are constructed with an anti-$k_\perp$ jet finder with $R=0.4$ and projected onto many different observables.</p>
+
+<h3><a href="MC_XS/index.html" style="text-decoration:none;">MC analysis for process total cross section (MC_XS)</a></h3>
+<p><a href="https://rivet.hepforge.org/analyses/MC_XS.html">Analysis reference</a></p>
+<p style="font-size:smaller;">Analysis for bookkeeping of the total cross section, number of generated events and the ratio of events with positive and negative weights. This analysis will not produce sensible distributions in case of correlated NLO sub-events.</p>
+<footer style="clear:both; margin-top:3em; padding-top:3em">
+<p>Generated at Sunday, 25. December 2022 08:09PM</p>
+<p>Created with command: <pre>rivet-mkhtml mg5py8_1.yoda -o mg5</pre></p>
+</footer>
+
+</body>
+</html>

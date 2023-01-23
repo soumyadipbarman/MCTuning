@@ -1,0 +1,24 @@
+# BEGIN PLOT
+LegendOnly=//home/soumyadip/Workspace/Zigzag/pwpy8_1.yoda/MC_XS/N
+DrawOnly=//home/soumyadip/Workspace/Zigzag/pwpy8_1.yoda/MC_XS/N
+XCustomMajorTicks=0.5	$\quad$
+Title=Number of generated events
+LogY=0
+LegendXPos=0.05
+XLabel=
+XMinorTickMarks=0
+YLabel=$N$
+LegendYPos=0.15
+Legend=1
+# END PLOT
+
+# BEGIN HISTO1D //home/soumyadip/Workspace/Zigzag/pwpy8_1.yoda/MC_XS/N
+LineColor=red
+LineStyle=solid
+Path=//home/soumyadip/Workspace/Zigzag/pwpy8_1.yoda/MC_XS/N
+ScaledBy=1.00000000000000000e+00
+Title=pwpy8_1
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.000000e+00	5.000000e+04	2.236068e+02	2.236068e+02
+# END HISTO1D
+

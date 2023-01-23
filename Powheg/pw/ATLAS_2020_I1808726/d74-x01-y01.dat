@@ -1,0 +1,42 @@
+# BEGIN PLOT
+LegendOnly=/ATLAS_2020_I1808726/d74-x01-y01 //home/soumyadip/Workspace/Zigzag/pwpy8_1.yoda/ATLAS_2020_I1808726/d74-x01-y01
+DrawOnly=/ATLAS_2020_I1808726/d74-x01-y01 //home/soumyadip/Workspace/Zigzag/pwpy8_1.yoda/ATLAS_2020_I1808726/d74-x01-y01
+Title=Jet multiplicity for 1.5 TeV $< H_{T2} <$ 2.0 TeV
+RatioPlotReference=/ATLAS_2020_I1808726/d74-x01-y01
+RatioPlot=1
+LogY=1
+XLabel=$n^{\mathrm{jet}}$
+YLabel=$d\sigma/dn^{\mathrm{jet}}$
+Legend=1
+# END PLOT
+
+# BEGIN HISTO1D /ATLAS_2020_I1808726/d74-x01-y01
+ConnectBins=0
+ErrorBars=1
+IsRef=1
+Path=/ATLAS_2020_I1808726/d74-x01-y01
+PolyMarker=*
+Title=Data
+# xlow	 xhigh	 val	 errminus	 errplus
+2.000000e+00	3.000000e+00	2.009160e+01	7.885504e-01	8.000745e-01
+3.000000e+00	4.000000e+00	1.086670e+01	4.313417e-01	4.408005e-01
+4.000000e+00	5.000000e+00	3.475380e+00	1.644014e-01	1.682179e-01
+5.000000e+00	6.000000e+00	8.348260e-01	4.835284e-02	5.030412e-02
+6.000000e+00	7.000000e+00	2.009630e-01	1.495972e-02	1.525712e-02
+# END HISTO1D
+
+
+# BEGIN HISTO1D //home/soumyadip/Workspace/Zigzag/pwpy8_1.yoda/ATLAS_2020_I1808726/d74-x01-y01
+LineColor=red
+LineStyle=solid
+Path=//home/soumyadip/Workspace/Zigzag/pwpy8_1.yoda/ATLAS_2020_I1808726/d74-x01-y01
+ScaledBy=2.00000000070667569e-05
+Title=pwpy8_1
+# xlow	 xhigh	 val	 errminus	 errplus
+2.000000e+00	3.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.000000e+00	4.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+4.000000e+00	5.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+5.000000e+00	6.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+6.000000e+00	7.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+

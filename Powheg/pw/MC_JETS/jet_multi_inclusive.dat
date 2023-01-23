@@ -1,0 +1,29 @@
+# BEGIN PLOT
+LegendOnly=//home/soumyadip/Workspace/Zigzag/pwpy8_1.yoda/MC_JETS/jet_multi_inclusive
+DrawOnly=//home/soumyadip/Workspace/Zigzag/pwpy8_1.yoda/MC_JETS/jet_multi_inclusive
+Title=Inclusive jet multiplicity
+XMajorTickMarks=10
+LogY=1
+ErrorBands=1
+XMinorTickMarks=0
+YLabel=$\sigma(\geq N_{\mathrm{jet}})$ [pb]
+XLabel=$N_{\mathrm{jet}}$
+Legend=1
+# END PLOT
+
+# BEGIN HISTO1D //home/soumyadip/Workspace/Zigzag/pwpy8_1.yoda/MC_JETS/jet_multi_inclusive
+LineColor=red
+LineStyle=solid
+Path=//home/soumyadip/Workspace/Zigzag/pwpy8_1.yoda/MC_JETS/jet_multi_inclusive
+ScaledBy=2.00000000070667569e-05
+Title=pwpy8_1
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.792366e+09	3.068570e+07	3.068570e+07
+5.000000e-01	1.500000e+00	6.097156e+08	9.163676e+06	9.163676e+06
+1.500000e+00	2.500000e+00	1.819678e+08	4.997154e+06	4.997154e+06
+2.500000e+00	3.500000e+00	2.730889e+07	1.935876e+06	1.935876e+06
+3.500000e+00	4.500000e+00	7.273222e+06	9.990539e+05	9.990539e+05
+4.500000e+00	5.500000e+00	3.156304e+06	6.581349e+05	6.581349e+05
+5.500000e+00	6.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+

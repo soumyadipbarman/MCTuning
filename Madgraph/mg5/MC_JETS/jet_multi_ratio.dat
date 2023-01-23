@@ -1,0 +1,28 @@
+# BEGIN PLOT
+LegendOnly=//home/soumyadip/Workspace/Zigzag/mg5py8_1.yoda/MC_JETS/jet_multi_ratio
+DrawOnly=//home/soumyadip/Workspace/Zigzag/mg5py8_1.yoda/MC_JETS/jet_multi_ratio
+Title=Ratio of jet multiplicity
+XMajorTickMarks=10
+LogY=0
+XLabel=$N_{\mathrm{jet}}$
+XMinorTickMarks=0
+YLabel=$\sigma(\geq N_{\mathrm{jet}})/\sigma(\geq N_{\mathrm{jet}}-1)$
+ErrorBands=1
+Legend=1
+# END PLOT
+
+# BEGIN HISTO1D //home/soumyadip/Workspace/Zigzag/mg5py8_1.yoda/MC_JETS/jet_multi_ratio
+ErrorBreakdown={0: {"": {up: 0.01697110583255284, dn: 0.01697110583255284}}, 1: {"": {up: 0.01691334455865257, dn: 0.01691334455865257}}, 2: {"": {up: 0.008964245229023528, dn: 0.008964245229023528}}, 3: {"": {up: 0.01153196668060066, dn: 0.01153196668060066}}, 4: {"": {up: 0.01865833063518999, dn: 0.01865833063518999}}, 5: {"": {up: 0, dn: 0}}}
+LineColor=red
+LineStyle=solid
+Path=//home/soumyadip/Workspace/Zigzag/mg5py8_1.yoda/MC_JETS/jet_multi_ratio
+Title=mg5py8_1
+# xlow	 xhigh	 val	 errminus	 errplus
+5.000000e-01	1.500000e+00	1.000000e+00	1.697111e-02	1.697111e-02
+1.500000e+00	2.500000e+00	9.954637e-01	1.691334e-02	1.691334e-02
+2.500000e+00	3.500000e+00	4.120796e-01	8.964245e-03	8.964245e-03
+3.500000e+00	4.500000e+00	3.119186e-01	1.153197e-02	1.153197e-02
+4.500000e+00	5.500000e+00	2.684299e-01	1.865833e-02	1.865833e-02
+5.500000e+00	6.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+

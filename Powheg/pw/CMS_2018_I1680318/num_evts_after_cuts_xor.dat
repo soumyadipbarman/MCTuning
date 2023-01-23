@@ -1,0 +1,19 @@
+# BEGIN PLOT
+LegendOnly=//home/soumyadip/Workspace/Zigzag/pwpy8_1.yoda/CMS_2018_I1680318/num_evts_after_cuts_xor
+DrawOnly=//home/soumyadip/Workspace/Zigzag/pwpy8_1.yoda/CMS_2018_I1680318/num_evts_after_cuts_xor
+LogY=1
+RatioPlotYMax=1.4
+Legend=1
+RatioPlotYMin=0.6
+# END PLOT
+
+# BEGIN COUNTER //home/soumyadip/Workspace/Zigzag/pwpy8_1.yoda/CMS_2018_I1680318/num_evts_after_cuts_xor
+LineColor=red
+LineStyle=solid
+Path=//home/soumyadip/Workspace/Zigzag/pwpy8_1.yoda/CMS_2018_I1680318/num_evts_after_cuts_xor
+ScaledBy=1.00000000000000000e+00
+Title=pwpy8_1
+# value	 error
+6.861530e+11	6.929806e+10
+# END COUNTER
+

@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>Plots from Rivet analyses</title>
+<style>
+      html { font-family: sans-serif; }
+      img { border: 0; }
+      a { text-decoration: none; font-weight: bold; }
+    </style>
+            <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          tex2jax: {inlineMath: [["$","$"]]}
+        });
+        </script>
+        <script type="text/javascript" async
+          src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
+        
+
+        <script type="text/javascript">
+            function filterPlots(ana, patt) {
+                var regex = new RegExp(patt);
+                var sec = document.getElementById('ana_'+ana);
+                var plots = sec.getElementsByClassName('plot');
+                var i; for (i = 0; i < plots.length; ++i) {
+                    // var viz = (regex.test(plots[i].id)) ? 'visible' : 'hidden';
+                    // plots[i].style.visibility = viz;
+                    var dis = (regex.test(plots[i].id)) ? 'block' : 'none';
+                    plots[i].style.display = dis;
+                }
+                return false;
+           }
+        </script>
+        </head>
+<body><h2>Plots from Rivet analyses</h2>
+
+
+<h3><a href="ATLAS_2020_I1808726/index.html" style="text-decoration:none;">Hadronic event shapes in multijet final states (ATLAS_2020_I1808726)</a></h3>
+<p><a href="https://inspirehep.net/literature/1808726">Inspire</a> &#124; <a href="http://hepdata.net/record/ins1808726">HepData</a> &#124; <a href="https://rivet.hepforge.org/analyses/ATLAS_2020_I1808726.html">Analysis reference</a> &#124; <a href="https://arxiv.org/abs/2007.12600">arXiv:2007.12600</a></p>
+
+<h3><a href="ATLAS_2020_I1790256/index.html" style="text-decoration:none;">Lund jet plane with charged particles (ATLAS_2020_I1790256)</a></h3>
+<p><a href="https://inspirehep.net/literature/1790256">Inspire</a> &#124; <a href="http://hepdata.net/record/ins1790256">HepData</a> &#124; <a href="https://rivet.hepforge.org/analyses/ATLAS_2020_I1790256.html">Analysis reference</a> &#124; <a href="https://arxiv.org/abs/2004.03540">arXiv:2004.03540</a></p>
+<p style="font-size:smaller;">The prevalence of hadronic jets at the LHC requires that a deep understanding of jet formation and structure is achieved in order to reach the highest levels of experimental and theoretical precision. There have been many measurements of jet substructure at the LHC and previous colliders, but the targeted observables mix physical effects from various origins. Based on a recent proposal to factorize physical effects, this Letter presents a double-differential cross-section measurement of the Lund jet plane using 139 fb$^{-1}$ of $\sqrt{s}=13$ TeV proton-proton collision data collected with the ATLAS detector using jets with transverse momentum above 675 GeV. The measurement uses charged particles to achieve a fine angular resolution and is corrected for acceptance and detector effects. Several parton shower Monte Carlo models are compared with the data. No single model is found to be in agreement with the measured data across the entire plane.</p>
+
+<h3><a href="ATLAS_2019_I1740909/index.html" style="text-decoration:none;">Jet fragmentation using charged particles (ATLAS_2019_I1740909)</a></h3>
+<p><a href="https://inspirehep.net/literature/1740909">Inspire</a> &#124; <a href="http://hepdata.net/record/ins1740909">HepData</a> &#124; <a href="https://rivet.hepforge.org/analyses/ATLAS_2019_I1740909.html">Analysis reference</a> &#124; <a href="https://arxiv.org/abs/1906.09254">arXiv:1906.09254</a> &#124; Phys.Rev.D 100 (2019) 5, 052011</p>
+
+<h3><a href="ATLAS_2019_I1724098/index.html" style="text-decoration:none;">Jet substructure at 13 TeV (ATLAS_2019_I1724098)</a></h3>
+<p><a href="https://inspirehep.net/literature/1724098">Inspire</a> &#124; <a href="http://hepdata.net/record/ins1724098">HepData</a> &#124; <a href="https://rivet.hepforge.org/analyses/ATLAS_2019_I1724098.html">Analysis reference</a> &#124; JHEP 1908 (2019) 033 &#124; doi:10.1007/JHEP08(2019)033 &#124; <a href="https://arxiv.org/abs/1903.02942">arXiv:1903.02942</a></p>
+<p style="font-size:smaller;">A measurement of jet substructure observables is presented using data collected in 2016 by the ATLAS experiment at the LHC with proton-proton collisions at $\sqrt{s} = 13$ TeV. Large-radius jets groomed with the trimming and soft-drop algorithms are studied. Dedicated event selections are used to study jets produced by light quarks or gluons, and hadronically decaying top quarks and W bosons. The observables measured are sensitive to substructure, and therefore are typically used for tagging large-radius jets from boosted massive particles. These include the energy correlation functions and the $N$-subjettiness variables. The number of subjets and the Les Houches angularity are also considered. The distributions of the substructure variables, corrected for detector effects, are compared to the predictions of various Monte Carlo event generators. They are also compared between the large-radius jets originating from light quarks or gluons, and hadronically decaying top quarks and $W$ bosons.</p>
+
+<h3><a href="ATLAS_2018_I1634970/index.html" style="text-decoration:none;">ATLAS Inclusive jet and dijet cross section measurement at sqrt(s)=13TeV (ATLAS_2018_I1634970)</a></h3>
+<p><a href="https://inspirehep.net/literature/1634970">Inspire</a> &#124; <a href="http://hepdata.net/record/ins1634970">HepData</a> &#124; <a href="https://rivet.hepforge.org/analyses/ATLAS_2018_I1634970.html">Analysis reference</a> &#124; JHEP 1805 (2018) 195 &#124; <a href="https://arxiv.org/abs/1711.02692">arXiv:1711.02692</a></p>
+<p style="font-size:smaller;">Inclusive jet and dijet cross-sections are measured in proton-proton collisions at a centre-of-mass energy of 13 TeV. The measurement uses a dataset with an integrated luminosity of 3.2 fb$^{-1}$ recorded in 2015 with the ATLAS detector at the Large Hadron Collider. Jets are identified using the anti-$k_\text{t}$ algorithm with a radius parameter value of $R = 0.4$. The inclusive jet cross-sections are measured double-differentially as a function of the jet transverse momentum, covering the range from 100 GeV to 3.5 TeV, and the absolute jet rapidity up to $|y| = 3$. The double-differential dijet production cross-sections are presented as a function of the dijet mass, covering the range from 300 GeV to 9 TeV, and the half absolute rapidity separation between the two leading jets within $|y| &lt; 3$, $y^\ast$, up to $y^\ast = 3$. Next-to-leading-order, and next-to-next-to-leading-order for the inclusive jet measurement, perturbative QCD calculations corrected for non-perturbative and electroweak effects are compared to the measured cross-sections.</p>
+
+<h3><a href="MC_JETS/index.html" style="text-decoration:none;">Monte Carlo validation observables for jet production (MC_JETS)</a></h3>
+<p><a href="https://rivet.hepforge.org/analyses/MC_JETS.html">Analysis reference</a></p>
+<p style="font-size:smaller;">Jets with $p_\perp&gt;20$ GeV are constructed with an anti-$k_\perp$ jet finder with $R=0.4$ and projected onto many different observables.</p>
+<footer style="clear:both; margin-top:3em; padding-top:3em">
+<p>Generated at Sunday, 25. December 2022 03:51PM</p>
+<p>Created with command: <pre>rivet-mkhtml 25Dec2022_py8.yoda -o 25Dec2022_py8</pre></p>
+</footer>
+
+</body>
+</html>

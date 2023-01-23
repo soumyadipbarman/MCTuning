@@ -1,0 +1,29 @@
+# BEGIN PLOT
+LegendOnly=//home/soumyadip/Workspace/Zigzag/mg5py8_1.yoda/MC_JETS/jet_multi_exclusive
+DrawOnly=//home/soumyadip/Workspace/Zigzag/mg5py8_1.yoda/MC_JETS/jet_multi_exclusive
+Title=Exclusive jet multiplicity
+XMajorTickMarks=10
+LogY=1
+ErrorBands=1
+XMinorTickMarks=0
+YLabel=$\sigma(N_{\mathrm{jet}})$ [pb]
+XLabel=$N_{\mathrm{jet}}$
+Legend=1
+# END PLOT
+
+# BEGIN HISTO1D //home/soumyadip/Workspace/Zigzag/mg5py8_1.yoda/MC_JETS/jet_multi_exclusive
+LineColor=red
+LineStyle=solid
+Path=//home/soumyadip/Workspace/Zigzag/mg5py8_1.yoda/MC_JETS/jet_multi_exclusive
+ScaledBy=1.00004000192488305e-05
+Title=mg5py8_1
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	0.000000e+00	0.000000e+00	0.000000e+00
+5.000000e-01	1.500000e+00	8.553206e+04	1.077602e+04	1.077602e+04
+1.500000e+00	2.500000e+00	1.103499e+07	1.223997e+05	1.223997e+05
+2.500000e+00	3.500000e+00	5.321995e+06	8.500244e+04	8.500244e+04
+3.500000e+00	4.500000e+00	1.764947e+06	4.895083e+04	4.895083e+04
+4.500000e+00	5.500000e+00	4.683898e+05	2.521726e+04	2.521726e+04
+5.500000e+00	6.500000e+00	1.344075e+05	1.350846e+04	1.350846e+04
+# END HISTO1D
+

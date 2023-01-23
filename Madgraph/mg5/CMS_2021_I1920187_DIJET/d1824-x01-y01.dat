@@ -1,0 +1,38 @@
+# BEGIN PLOT
+XTwosidedTicks=1
+YTwosidedTicks=1
+DrawOnly=//home/soumyadip/Workspace/Zigzag/mg5py8_1.yoda/CMS_2021_I1920187_DIJET/d1824-x01-y01
+Title=CMS, 13 TeV, AK8 jets, forward dijet region, 186 $<p_{T}^{\text{jet}}<$ 254 GeV
+YLabel=$\frac{1}{\mathrm d N / \mathrm d p_{T}}\frac{\mathrm d^{2}N}{\mathrm d p_{T}~\mathrm d \lambda}$
+LogY=0
+LegendXPos=0.5
+XLabel=groomed pTD2 (charged-only)
+XMax=1.0
+RatioPlotSameStyle=1
+XMin=0.0
+NormalizeToIntegral=1
+Legend=1
+LegendOnly=//home/soumyadip/Workspace/Zigzag/mg5py8_1.yoda/CMS_2021_I1920187_DIJET/d1824-x01-y01
+LeftMargin=1.7
+# END PLOT
+
+# BEGIN HISTO1D //home/soumyadip/Workspace/Zigzag/mg5py8_1.yoda/CMS_2021_I1920187_DIJET/d1824-x01-y01
+LineColor=red
+LineStyle=solid
+Path=//home/soumyadip/Workspace/Zigzag/mg5py8_1.yoda/CMS_2021_I1920187_DIJET/d1824-x01-y01
+ScaledBy=1.00000000000000000e+00
+Title=mg5py8_1
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	7.000000e-02	0.000000e+00	0.000000e+00	0.000000e+00
+7.000000e-02	9.000000e-02	1.357598e+10	9.599663e+09	9.599663e+09
+9.000000e-02	1.200000e-01	2.262662e+10	1.011893e+10	1.011893e+10
+1.200000e-01	1.600000e-01	2.375795e+10	8.979661e+09	8.979661e+09
+1.600000e-01	2.100000e-01	5.430390e+09	3.839865e+09	3.839865e+09
+2.100000e-01	2.700000e-01	2.262662e+09	2.262663e+09	2.262663e+09
+2.700000e-01	3.500000e-01	1.696996e+09	1.696997e+09	1.696997e+09
+3.500000e-01	4.400000e-01	0.000000e+00	0.000000e+00	0.000000e+00
+4.400000e-01	5.400000e-01	0.000000e+00	0.000000e+00	0.000000e+00
+5.400000e-01	6.600000e-01	0.000000e+00	0.000000e+00	0.000000e+00
+6.600000e-01	1.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+
