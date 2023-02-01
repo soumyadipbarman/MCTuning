@@ -1,10 +1,12 @@
 #!/bin/bash
 
 rm submit_mg5py8*
-for((k=0; k<10; k++))
+rm run.sh
+
+for((k=0; k<51; k++))
 do
 n=${k}
-ME=$(printf '%02d' "$[k+1]")
+#ME=$(printf '%02d' "$[k+1]")
 
 cat>ESV_mg5py8_${n}.cmnd<<%
 ! 1) Settings used in the main program.
@@ -28,7 +30,7 @@ Stat:showPartonLevel = off         ! additional statistics on MPI
 JetMatching:merge = on
 JetMatching:scheme = 1
 JetMatching:setMad = off
-JetMatching:qCut = 45
+JetMatching:qCut = 15
 JetMatching:coneRadius = 1
 JetMatching:etaJetMax = 5
 JetMatching:nJetMax = 4
@@ -39,7 +41,7 @@ JetMatching:nJetMax = 4
 !JetMatching:doShowerKt = off
 
 Beams:frameType = 4
-Beams:LHEF = /home/soumyadip/Package/Madgraph/QCD/MG5_aMC_v3_4_1/QCD_4j_LO_MLM_v2/Events/run_${ME}/unweighted_events.lhe.gz
+Beams:LHEF = /home/soumyadip/Package/Madgraph/QCD/MG5_aMC_v3_4_1/QCD_4j_LO_MLM_wn2_20Jan2022/Sample/run_${n}/events.lhe.gz
 
 ! 6) Other settings. Can be expanded as desired.
 ! Note: may overwrite some of the values above, so watch out.
@@ -99,5 +101,7 @@ rm hepmc_mg5py8_${n}.fifo
 echo DONE
 %
 
-chmod +x *sh
+chmod +x *.sh
+
+echo "./submit_mg5py8_${n}.sh >> out_${n}.log 2>&1 &" >> run.sh
 done
